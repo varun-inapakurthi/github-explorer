@@ -6,7 +6,6 @@ export default function Layout() {
   const location = useLocation();
   const isHistory = location.pathname.includes('/history');
 
-  console.log('🚀 ~ Layout ~ location:', location);
   return (
     <div className='min-h-screen bg-gray-50'>
       <nav className='bg-white shadow-md'>
